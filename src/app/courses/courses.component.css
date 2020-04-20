@@ -1,0 +1,29 @@
+.courses
+{
+    margin: 0 0 2em 0;
+    list-style-type: none;
+    padding:0;
+    width: 15em;
+}
+
+.courses li{
+    position: relative;
+    cursor: pointer;
+    background-color:  #4CAF50;
+    margin: 1em;
+    padding: .3em 0;
+    height: 1em;
+    border-radius:4px;
+}
+.courses li:hover{
+    background-color: rgb(13, 126, 73);
+}
+.badge{
+    position: relative;
+    cursor: pointer;
+    background-color: rgb(182, 134, 79);
+    margin: 1em;
+    padding: .3em 0;
+    height: 1em;
+    border-radius:4px;
+}
